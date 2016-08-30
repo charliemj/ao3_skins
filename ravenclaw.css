@@ -1,16 +1,44 @@
 /*skin for archive of our own. below the css is a list of colors/fonts the site supports. feel free
-to swap them out. feel free to use, alter, build off of, do whatever with this theme*/
+to swap them out. feel free to use, alter, build off of, do whatever with this theme
+
+preview: http://s3.amazonaws.com/otw-ao3-icons/skins/icons/98656/original.png?1472595638
+
+Ravenclaw theme based off of these colors http://www.color-hex.com/color-palette/3653
+*/
 
 
-/*this section changes the background color of **this**  */
-a:hover,
-li.relationships a:hover,
-a.tag:hover {
-  background-color: gray;
+
+#header .user a,
+#header a:hover,
+#header .user .current,
+#small_login .action,
+#dashboard a,
+#dashboard span,
+a:visited:hover,
+.splash .module h3,
+.splash .browse ul,
+.splash .browse li,
+.actions a:hover,
+.menu a:hover,
+form .notice,
+form ul.notes,
+#dashboard a:hover,
+form dd.required,
+.required,
+.error {
+  color: silver;
 }
 
+li.relationships a:hover,
+#header .primary,
+#footer,
+a:link .dropdown,
+input {
+  background-color: #7e7e7e;
+  background: #7e7e7e;
+  color: #7e7e7e;
+}
 
-/*this section changes the background color, font, and font color of **this** */
 .flash.notice,
 fieldset,
 .listbox,
@@ -37,32 +65,68 @@ input.button,
 .home .header .userstuff,
 .home .header dl.stats,
 .home .header .type,
-#outer {
-  background-color: floralwhite;
-  color: black;
-  font-family: helvetica;
-}
-
-
-/*this section changes the font color of **this** */ 
+#outer,
+#dashboard.own,
+.blurb h4 a:link,
+#header .heading a,
+.actions a:visited,
+.action:visited,
+.action a:link,
+.action a:visited,
 #footer a,
 #footer .heading,
 #header a:hover,
-#header a:link,
-#outer {
+a.tag,
+a,
+a:link,
+a:visited:hover,
+a:hover {
+  background-color: #1d2a54;
+  color: silver;
+  font-family: garamond, "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  border-top: #1d2a54;
+  border-bottom: #1d2a54;
+}
+
+a:visited {
+  color: white;
+}
+
+#dashboard .current {
+  background: white;
+}
+
+.splash .browse li a:before {
+  color: white;
+}
+
+#header a,
+#header a:visited,
+#header .primary .open a,
+#header .primary .dropdown:hover a,
+#header .primary .dropdown a:focus,
+#header .actions a:hover,
+#header .actions a:focus,
+#header .dropdown:hover a,
+#header .open a,
+#header .current,
+#header .menu,
+#small_login,
+#header .dropdown:hover .current+.menu {
   color: black;
 }
 
-/*this section changes the background color of **this** */ 
-
-#header .primary,
-#footer {
-  background: gray;
+a.tag {
+  text-decoration: underline;
 }
 
-
-
-
+a:hover,
+li.relationships a:hover,
+a.tag:hover {
+  color: black;
+  background: white;
+  text-decoration: underline;
+}
 
 /* colors that are available:
 
@@ -95,4 +159,3 @@ trebuchet ms, verdana, webdings, wingdings, zapf dingbats
 
 
 */ 
-
